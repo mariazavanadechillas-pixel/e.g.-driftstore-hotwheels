@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smooth Scroll Menu</title>
+    <link rel="stylesheet" href="2homepage.css">
+</head>
+<body background="backg.jpg">
+
+
+<header>
+  <nav class="navbar">
+<img src="logo.jpg" alt="Logo" class="logo" height="80" width="90">
+<center>
+    <div class="nav-left">
+
+      <a href="2homepage.html">HOME</a>
+      <a href="3collections.html">COLLECTIONS
+      </a>
+      <a href="4aboutus.html">ABOUT US</a>
+      <a href="5contactus.html">CONTACT US
+      </a>
+      
+    </div>
+  </center>
+    
+      <div class="cart-icon" id="cart-icon">🛒
+                <i class="fas fa-shopping-bag"></i>
+                <span id="cart-count">0</span>
+            </div>
+            </div>
+    </div>
+  </nav>
+</header>
+<br>
+<br>
+<br>
+
+
+        <!-- Cart Modal -->
+        <div class="cart-modal" id="cart-modal">
+            <div class="cart-content">
+                <span class="close-btn" id="close-btn">&times;</span>
+                <h2>Your Cart</h2>
+                <div class="cart-items" id="cart-items">
+                    <!-- Cart items will be added here dynamically -->
+                </div>
+                <div class="cart-total">
+                    <h3>Total: <span id="total-price">0.000</span></h3>
+                </div>
+                <button class="checkout-btn" id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+
+
+        <h2 class="neon-text">LAMBORGHINI</h2>
+ <div class="products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="lambo1.jpg" alt="Product 1">
+                <h3> LAMBORGHINI 1</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="1" data-name="LAMBORGHINI 1" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="lambo2.jpg" alt="Product 2">
+                <h3> LAMBORGHINI 2</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="2" data-name="LAMBORGHINI 2" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="lambo3.jpg" alt="Product 3">
+                <h3> LAMBORGHINI 3</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="3" data-name="LAMBORGHINI 3" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="lambo4.jpg" alt="Product 4">
+                <h3> LAMBORGHINI 4</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="4" data-name="LAMBORGHINI 4" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="lambo5.jpg" alt="Product 5">
+                <h3> LAMBORGHINI 5</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="5" data-name="LAMBORGHINI 5" data-price="129₱">Add To Cart</button>
+            </div>
+</div>
+<br>
+         <h2 class="neon-text">PORSCHE</h2>
+ <div class="products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="porshe2.jpg" alt="Product 1">
+                <h3>PORSCHE 1</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="1" data-name="PORSCHE 1" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="porshe3.jpg" alt="Product 2">
+                <h3>PORSCHE 2</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="2" data-name="PORSCHE 2" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="porshe4.jpg" alt="Product 3">
+                <h3>PORSCHE 3</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="3" data-name="PORSCHE 3" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="porshe5.jpg" alt="Product 4">
+                <h3>PORSCHE 4</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="4" data-name="PORSCHE 4" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="porshe6.jpg" alt="Product 5">
+                <h3>PORSCHE 5</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="5" data-name="PORSCHE 5" data-price="129₱">Add To Cart</button>
+            </div>
+ </div>
+
+      <br>
+         <h2 class="neon-text">NISSAN</h2>
+ <div class="products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="nissan7.jpg" alt="Product 1">
+                <h3>NISSAN 1</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="1" data-name="NISSAN 1" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="nissan 2.jpg" alt="Product 2">
+                <h3>NISSAN 2</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="2" data-name="NISSAN 2" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="nissan3.jpg" alt="Product 3">
+                <h3>NISSAN 3</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="3" data-name="NISSAN 3" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="nissan4.jpg" alt="Product 4">
+                <h3>NISSAN 4</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="4" data-name="NISSAN 4" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="nissan5.jpg" alt="Product 5">
+                <h3>NISSAN 5</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="5" data-name="NISSAN 5" data-price="129₱">Add To Cart</button>
+            </div>
+ </div>
+  
+ <br>
+         <h2 class="neon-text">FERRARI</h2>
+ <div class="products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="farrari1.jpg" alt="Product 1">
+                <h3>FERRARI 1</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="1" data-name="FERRARI 1" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="ferrari2.jpg" alt="Product 2">
+                <h3>FERRARI 2</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="2" data-name="FERRARI 2" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="ferrari3.jpg" alt="Product 3">
+                <h3>FERRARI 3</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="3" data-name="FERRARI 3" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="ferrari5.jpg" alt="Product 4">
+                <h3>FERRARI 4</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="4" data-name="FERRARI 4" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="ferrari7.jpg" alt="Product 5">
+                <h3>FERRARI 5</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="5" data-name="FERRARIS 5" data-price="129₱">Add To Cart</button>
+            </div>
+ </div>
+
+ <br>
+         <h2 class="neon-text">F1</h2>
+ <div class="products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="f17.jpg" alt="Product 1">
+                <h3>F1 1</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="1" data-name="F1 1" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="f12.jpg" alt="Product 2">
+                <h3>F1 2</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="2" data-name="F1 2" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="f13.jpg" alt="Product 3">
+                <h3>F1 3</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="3" data-name="F1 3" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="f14.jpg" alt="Product 4">
+                <h3>F1 4</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="4" data-name="F1 4" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="f15.jpg" alt="Product 5">
+                <h3>F1 5</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="5" data-name="F1 5" data-price="129₱">Add To Cart</button>
+            </div>
+ </div>
+
+ <br>
+         <h2 class="neon-text">MAZDA</h2>
+ <div class="products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="mazda1.jpg" alt="Product 1">
+                <h3>MAZDA 1</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="1" data-name="MAZDA 1" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="mazda3.jpg" alt="Product 2">
+                <h3>MAZDA 2</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="2" data-name="MAZDA 2" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="mazda5.jpg" alt="Product 3">
+                <h3>MAZDA 3</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="3" data-name="MAZDA 3" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="mazda4.jpg" alt="Product 4">
+                <h3>MAZDA 4</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="4" data-name="MAZDA 4" data-price="129₱">Add To Cart</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="mazda6.jpg" alt="Product 5">
+                <h3>MAZDA 5</h3>
+                <p class="price">129₱</p>
+                <button class="add-to-cart" data-id="5" data-name="MAZDA 5" data-price="129₱">Add To Cart</button>
+            </div>
+ </div>
+
+
+    <script src="2homepage.js"></script>
+</body>
+</html>
